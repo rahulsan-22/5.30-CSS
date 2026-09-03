@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  border: 20px solid black;
+  height: 100vh;
+  background-color: #ff0;
+  background-image: url("https://wallpapers.oneindia.com/ph-1024x768/2017/08/anushka-shetty_150286245580.jpg");
+  background-repeat: repeat;
+  background-repeat: repeat-x;
+  background-repeat: repeat-y;
+  background-repeat: no-repeat;
+  background-position:top left;
+  background-position:top center;
+  background-position:top right;
+  background-position:right center;
+  background-position:right bottom;
+  background-position:center bottom;
+  background-position:left bottom;
+  background-position:left center;
+  background-position:center center;
+  background-position:top;
+  background-position:right;
+  background-position:bottom;
+  background-position:left;
+  background-position:center;
+  background-position: 200px 100px;
+  background-position: 200px;
+  background-size: 300px 400px;
+  background-size: 300px;
+  background-size: cover;
+  background-size: contain;
+  font-size: 100px;
+  background-attachment:scroll;
+  background-attachment:fixed;
+  background: lightblue url("https://www.gethucinema.com/wp-content/uploads/2021/12/AnushkaShetty-516.jpg") no-repeat center/600px 500px fixed;
+}

@@ -1,0 +1,50 @@
+/* ! ::FIRST-LETTER */
+p::first-letter {
+  color: red;
+  font-size: 30px;
+}
+
+/* ! ::FIRST-LINE */
+p::first-line {
+  color: white;
+  background-color: purple;
+}
+
+/* ! ::BEFORE */
+p::before {
+  content: "🐟";
+}
+
+/* ! ::AFTER */
+p::after {
+  content: "🐐";
+}
+
+/* ! ::SELECTION */
+p::selection {
+  color: green;
+  background-color: yellow;
+}
+
+/* ! ::MARKER */
+li::marker {
+  color: blue;
+  content: "🥳";
+}
+#one::marker {
+  content: "❤️‍🔥";
+}
+#two::marker {
+  content: "😎";
+}
+#three::marker {
+  content: "😉";
+}
+#four::marker {
+  content: "🙏";
+}
+/* ! PLACEHOLDER*/
+input::placeholder {
+  color: orangered;
+  font-size: 10px;
+}

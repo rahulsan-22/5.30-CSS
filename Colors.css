@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#container{
+  border: 10px solid red;
+  height: 300px;
+  width: 500px;
+  background-color: yellow;
+  background-color: blue;
+
+  background-color: rgb(255,0,0);
+  background-color: rgb(0,255,0);
+  background-color: rgb(0,0,255);
+  background-color: rgb(0,0,0);
+  background-color: rgb(255,255,255);
+  background-color: rgb(27, 149, 0);
+  background-color: rgb(252, 151, 9);
+
+  background-color: rgba(250, 124, 239, 0.589);
+
+  background-color: #ff0000;
+  background-color: #00ff00;
+  background-color: #0000ff;
+  background-color: #000000;
+  background-color: #ffffff;
+  background-color: #0bb164;
+  background-color: #00e01a;
+  background-color: #f00;
+}

@@ -1,0 +1,15 @@
+h1{
+  color: red;
+}
+
+#anything{
+  color: blue;
+}
+
+.something{
+  color: green;
+}
+
+*{
+  color: yellow ;
+}

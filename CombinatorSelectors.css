@@ -1,0 +1,113 @@
+/* !DESCENDENT SELECTOR (SPACE) */
+/* section h1{
+  color: white;
+  background-color: red;
+} */
+
+/* section p{
+  color: white;
+  background-color: green;
+} */
+
+/* div h1{
+  color: white;
+  background-color: blue;
+} */
+
+/* div p{
+  color: white;
+  background-color: yellow;
+} */
+
+/* section h3{
+  color: white;
+  background-color: orange;
+} */
+
+/* section div{
+  color: white;
+  background-color: orange;
+} */
+
+/* !CHILD SELECTOR (>) */
+/* section>h1{
+  color: white;
+  background-color: red;
+} */
+
+/* section>p{
+  color: white;
+  background-color: green;
+} */
+
+/* div>h1{
+  color: white;
+  background-color: blue;
+} */
+
+/* div>p{
+  color: white;
+  background-color: yellow;
+} */
+
+/* section>h3{
+  color: white;
+  background-color: orange;
+} */
+
+/* section>div{
+  color: white;
+  background-color: orange;
+} */
+
+/* !ADJACENT SIBLING SELECTOR (+) */
+/* p+h1{
+  color: white;
+  background-color: purple;
+} */
+
+/* h1+p{
+  color: white;
+  background-color: maroon;
+} */
+
+/* p+p{
+  color: white;
+  background-color: seagreen;
+} */
+
+/* p + div {
+  color: white;
+  background-color: firebrick;
+} */
+
+/* h1 + div {
+  color: white;
+  background-color: firebrick;
+} */
+
+/* !GENERAL SIBLING SELECTOR (+) */
+/* p~h1{
+  color: white;
+  background-color: purple;
+} */
+
+/* h1~p{
+  color: white;
+  background-color: maroon;
+} */
+
+/* p~p{
+  color: white;
+  background-color: seagreen;
+} */
+
+/* p ~ div {
+  color: white;
+  background-color: firebrick;
+} */
+
+/* h1 ~ div {
+  color: white;
+  background-color: firebrick;
+} */

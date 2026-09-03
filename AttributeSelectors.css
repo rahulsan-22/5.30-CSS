@@ -1,0 +1,15 @@
+/* ! [attribute] */
+[title]{
+  color: white;
+  background-color: maroon;
+}
+
+/*! [attribute=value] */
+[title="Cascading Style Sheets"]{
+  text-align: center;
+}
+
+[webTech="rahul"]{
+  color: green;
+  background-color: yellow;
+}

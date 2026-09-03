@@ -1,0 +1,44 @@
+h1 {
+  color: blue;
+  border-width: 10px;
+  border-top-width: 10px;
+  border-right-width: 20px;
+  border-bottom-width: 30px;
+  border-left-width: 40px;
+
+  border-style: none;
+  border-style: solid;
+  border-style: dashed;
+  border-style: dotted;
+  border-style: double;
+  border-style: ridge;
+  border-style: groove;
+
+  border-top-style: solid;
+  border-right-style: dashed;
+  border-bottom-style: dotted;
+  border-left-style: double;
+
+  border-color: red;
+  border-top-color: red;
+  border-right-color: green;
+  border-bottom-color: blue;
+  border-left-color: yellow;
+
+  border: 2px double aqua;
+  border: purple 10px dashed;
+}
+
+div{
+  border: 10px solid seagreen;
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 40px;
+}
+div:hover{
+  border-radius: 50%;
+}

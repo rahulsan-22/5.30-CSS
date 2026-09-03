@@ -1,0 +1,27 @@
+/* ! ID (#) */
+#special{
+  color: white;
+  background-color: red;
+}
+/* ! CLASS (.) */
+.biryani{
+  color: white;
+  background-color: purple;
+}
+.mutton{
+  text-align: center;
+}
+/* !TAGNAME */
+input{
+  background-color: tomato;
+  color: white;
+}
+/* !GROUPING  (,)*/
+h4,#coffee,.samosa{
+  background-color: aqua;
+}
+
+/* !UNIVERSAL (*) */
+*{
+  border: 5px solid black;
+}
