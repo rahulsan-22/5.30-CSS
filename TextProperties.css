@@ -1,0 +1,26 @@
+a {
+  text-decoration-line: none;
+}
+p {
+  text-decoration-line: overline;
+  text-decoration-line: line-through;
+  text-decoration-line: underline;
+
+  text-decoration-thickness: 1px;
+
+  text-decoration-style: solid;
+  text-decoration-style: dashed;
+  text-decoration-style: dotted;
+  text-decoration-style: double;
+  text-decoration-style: wavy;
+
+  text-decoration-color: #f00;
+
+  text-decoration: underline 3px double aqua;
+
+  text-indent: 100px;
+
+  text-transform: uppercase;
+  text-transform: lowercase;
+  text-transform: capitalize;
+}

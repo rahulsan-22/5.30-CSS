@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  background: linear-gradient(to bottom,violet,indigo,blue,green,yellow,orange,red);
+  background: linear-gradient(to top,violet,indigo,blue,green,yellow,orange,red);
+  background: linear-gradient(to left,violet,indigo,blue,green,yellow,orange,red);
+  background: linear-gradient(to right,violet,indigo,blue,green,yellow,orange,red);
+  background: linear-gradient(to top left,violet,indigo,blue,green,yellow,orange,red);
+  background: linear-gradient(to top right,violet,indigo,blue,green,yellow,orange,red);
+  background: linear-gradient(to bottom right,violet,indigo,blue,green,yellow,orange,red);
+  background: linear-gradient(to bottom left,violet,indigo,blue,green,yellow,orange,red);
+  background: linear-gradient(to right,violet 0% 1%,indigo 1% 2%,blue 2% 3%,green 3% 4%,yellow 4% 5%,orange 5% 6%,red 6% 7%);
+  background: repeating-linear-gradient(to top right,violet 0% 1%,indigo 1% 2%,blue 2% 3%,green 3% 4%,yellow 4% 5%,orange 5% 6%,red 6% 7%);
+
+  background: radial-gradient(ellipse,violet,indigo,blue,green,yellow,orange,red);
+  background: radial-gradient(circle,violet,indigo,blue,green,yellow,orange,red);
+  background: radial-gradient(circle,violet 0% 1%,indigo 1% 2%,blue 2% 3%,green 3% 4%,yellow 4% 5%,orange 5% 6%,red 6% 7%);
+  background: repeating-radial-gradient(circle,violet 0% 1%,indigo 1% 2%,blue 2% 3%,green 3% 4%,yellow 4% 5%,orange 5% 6%,red 6% 7%);
+
+  background: conic-gradient(violet,indigo,blue,green,yellow,orange,red);
+  background: conic-gradient(violet 0% 1%,indigo 1% 2%,blue 2% 3%,green 3% 4%,yellow 4% 5%,orange 5% 6%,red 6% 7%);
+  background: repeating-conic-gradient(violet 0% 1%,indigo 1% 2%,blue 2% 3%,green 3% 4%,yellow 4% 5%,orange 5% 6%,red 6% 7%);
+}
