@@ -23,4 +23,25 @@ p {
   text-transform: uppercase;
   text-transform: lowercase;
   text-transform: capitalize;
+
+  word-spacing: normal;
+  word-spacing: 20px;
+
+  letter-spacing: normal;
+  letter-spacing: 5px;
+
+  line-height: normal;
+  line-height: 100px;
+
+  text-align: left;
+  text-align: right;
+  text-align: center;
+  text-align: justify;
+
+  text-align-last: left;
+  text-align-last: center;
+  text-align-last: right;
+  text-align-last: justify;
+
+  text-shadow: 3px 3px 3px red;
 }
