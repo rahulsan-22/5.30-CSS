@@ -1,0 +1,22 @@
+#dabba {
+  height: 300px;
+  width: 200px;
+  border: 5px solid black;
+  background-color: yellow;
+  overflow: visible;
+  overflow: hidden;
+  overflow: scroll;
+  overflow: auto;
+}
+
+#frame {
+  height: 200px;
+  width: 350px;
+  border: 10px solid black;
+  overflow: visible;
+  overflow: hidden;
+  overflow: scroll;
+  overflow: auto;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
