@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  height: 70px;
+  display: flex;
+}
+
+#nav_one {
+  flex-basis: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+}
+#nav_one > i {
+  font-size: 1.2rem;
+}
+#nav_one > span {
+  font-size: 0.8rem;
+  position: absolute;
+  top: 15px;
+  right: 35px;
+}
+#nav_two {
+  flex-basis: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#nav_two > input {
+  height: 40px;
+  width: 600px;
+  border-radius: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.594);
+  padding-left: 20px;
+}
+#search_container {
+  border: 1px solid rgba(0, 0, 0, 0.594);
+  height: 40px;
+  width: 60px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  right: 60px;
+}
+#mic_container {
+  height: 40px;
+  width: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.594);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: relative;
+  right: 40px;
+}
+#nav_three {
+  flex-basis: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+#nav_three > button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  font-weight: 700;
+}
+#nav_three > i {
+  font-size: 1.2rem;
+}
+#r {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: purple;
+}
