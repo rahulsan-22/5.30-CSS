@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#parent{
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr 3fr 1fr;
+  grid-template-columns:1fr 3fr 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+  border-radius: 20px;
+}
+#one,#five{
+  background-color: lightblue;
+  grid-column: 1/4;
+}
+#two{
+  background-color: lightgreen;
+}
+#three{
+  background-color: lightcoral;
+}
+#four{
+  background-color: lightpink;
+}

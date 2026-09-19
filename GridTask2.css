@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#parent{
+  height: 100vh;
+  background-color: purple;
+  display: grid;
+  grid-template-rows: repeat(5,1fr);
+  grid-template-columns: 2fr repeat(3,1fr);
+  gap: 20px;
+  padding: 20px;
+}
+div{
+  background-color: plum;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  border-radius: 20px;
+}
+#qsp,#footer{
+  grid-column: 1/5;
+}
+#t1{
+  grid-column: 2/4;
+}
+#sidebar{
+  grid-row: 2/5;
+}
