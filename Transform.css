@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#dabba{
+  height: 250px;
+  width: 250px;
+  background-color: yellow;
+  border: 5px solid black;
+  margin: 300px;
+  font-size: 2.5rem;
+  transition: all 2s 100ms ease;
+}
+#dabba:hover{
+  transform: translateX(500px);
+  transform: translateX(-100px);
+  transform: translateY(400px);
+  transform: translateY(-100px);
+  transform: translate(500px,300px);
+  transform: translate(500px);
+
+  transform: rotateX(90deg);
+  transform: rotateX(-60deg);
+  transform: rotateY(70deg);
+  transform: rotateY(-70deg);
+  transform: rotate(95deg);
+  transform: rotate(-360deg);
+
+  transform: scaleX(2.5);
+  transform: scaleY(0.5);
+  transform: scale(2,0.1);
+  transform: scale(2);
+
+  transform: skewX(30deg);
+  transform: skewX(-30deg);
+  transform: skewY(30deg);
+  transform: skewY(-30deg);
+  transform: skew(30deg,45deg);
+  transform: skew(30deg);
+
+  transform: translate(500px,-200px) rotate(360deg) scale(0.5) skew(45deg);
+}

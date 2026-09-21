@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* !Example 1 */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  animation-name: hearts;
+  animation-duration: 1s;
+  animation-delay: 100ms;
+  animation-timing-function: ease;
+  animation-iteration-count:infinite;
+  animation-direction: normal;
+  animation-direction: reverse;
+  animation-direction: alternate;
+  animation-direction: alternate-reverse;
+  animation: hearts 1.5s 100ms ease infinite alternate;
+}
+
+@keyframes hearts {
+  from {
+    font-size: 10px;
+    transform: rotate(0deg);
+    filter: blur(100px);
+  }
+  to {
+    font-size: 400px;
+    transform: rotate(360deg);
+    filter: blur(0px);
+  }
+}
