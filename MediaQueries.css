@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* !Example 1 */
+/* @media (min-width: 1024px) {
+  body {
+    background-color: lightblue;
+  }
+  h1 {
+    color: white;
+    background-color: purple;
+  }
+  #box {
+    height: 300px;
+    width: 300px;
+    border: 10px solid black;
+    background-color: aqua;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  body {
+    background-color: lightcoral;
+  }
+  h1 {
+    color: yellowgreen;
+    background-color: yellow;
+  }
+  #box {
+    height: 200px;
+    width: 200px;
+    border: 10px solid black;
+    background-color: lime;
+    border-radius: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    background-color: lightgreen;
+  }
+  h1 {
+    color: white;
+    background-color:red;
+  }
+  #box {
+    height: 100px;
+    width: 100px;
+    border: 10px solid black;
+    background-color: tomato;
+    transform: rotate(45deg);
+  }
+} */
+
+/* !Example 2: */
+#parent {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  gap: 20px;
+  padding: 20px;
+}
+
+div {
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: white;
+}
+
+@media (min-width: 1025px) {
+  #parent {
+    background-color: yellow;
+    grid-template-columns: repeat(4, auto);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  #parent {
+    background-color: red;
+    grid-template-columns: repeat(2, auto);
+  }
+}
+
+@media (max-width:768px){
+  #parent{
+    background-color: purple;
+  }
+}
